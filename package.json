@@ -1,0 +1,37 @@
+{
+    "name": "browser",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yguan/browser.git"
+    },
+    "description": "Simple library for automating browser interactions",
+    "author": "Yong Guan",
+    "dependencies": {
+        "wait-js": "~0.0.2",
+        "q": "~1.4.1",
+        "simulate-dom-event": "1.0.3"
+    },
+    "devDependencies": {
+        "gulp": "~3.8.0",
+        "browserify": "~3.36.0",
+        "vinyl-source-stream": "~0.1.1"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/yguan/browser/issues"
+    },
+    "homepage": "https://github.com/yguan/browser",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "browser",
+        "automation",
+        "test"
+    ]
+}
